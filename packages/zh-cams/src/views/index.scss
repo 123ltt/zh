@@ -1,0 +1,80 @@
+.myTable {
+  .el-col {
+    margin-bottom: 0;
+  }
+}
+.el-table tr th {
+  color: #909399!important;
+}
+.my-dialog {
+  .el-dialog__header {
+    padding: 16px 24px;
+    border-bottom: 1px solid #f0f0f0;
+  }
+
+  .el-dialog__body {
+    padding: 20px 20px 5px 10px;
+  }
+
+  .el-button--medium {
+    padding: 10px 15px;
+    font-size: 12px;
+    border-radius: 3px;
+  }
+
+  .avatar-uploader {
+    .el-upload--picture-card {
+      width: 50px;
+      height: 50px;
+      line-height: 58px;
+    }
+
+    .logo-img {
+      width: auto;
+      height: 50px;
+    }
+  }
+
+  .avatar-img {
+    .el-upload--picture-card {
+      border: none;
+    }
+  }
+}
+
+.my-dialog-small {
+  width: 35%;
+}
+
+.value-color {
+  color: #999;
+}
+// 组织树样式
+.org-tree {
+  .el-input.is-disabled .el-input__inner {
+      background-color: #fff;
+      color: #999;
+      cursor: not-allowed;
+      border: none;
+      padding: 0;
+  }
+  .el-input .el-select__caret {
+    color: #fff;
+  }
+}
+// 下拉框option与select同宽度
+.select-style {
+  width: 10%;
+}
+.select-style-modal {
+  width: 10%;
+  .el-select-dropdown__wrap {
+    max-height: 185px;
+  }
+}
+// 表格列左对齐
+.column-align-left {
+  .cell {
+    text-align: left!important;
+  }
+}

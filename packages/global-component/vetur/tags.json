@@ -1,0 +1,167 @@
+{
+  "g-auth": {
+    "attributes": [
+      "code"
+    ],
+    "description": "根据传入的code判断是否有权限，如果有权限则显示默认插槽的内容"
+  },
+  "g-cascader": {
+    "attributes": [
+      "value",
+      "options",
+      "isLeaf"
+    ],
+    "description": ""
+  },
+  "g-color-icon": {
+    "attributes": [
+      "icon",
+      "width",
+      "height",
+      "verticalAlign"
+    ],
+    "description": ""
+  },
+  "g-content": {
+    "attributes": [
+      "value",
+      "editable",
+      "type",
+      "rows",
+      "ellipsis",
+      "ellipsisLines"
+    ],
+    "description": ""
+  },
+  "g-charts": {
+    "attributes": [
+      "width",
+      "height",
+      "option",
+      "tooltip",
+      "title"
+    ],
+    "description": ""
+  },
+  "g-input-tags": {
+    "attributes": [
+      "value",
+      "tagMode",
+      "multiple",
+      "clearable",
+      "showArrow",
+      "showDetail",
+      "collapseTags",
+      "size",
+      "disabled",
+      "placeholder"
+    ],
+    "description": ""
+  },
+  "g-link": {
+    "attributes": [
+      "tag",
+      "color",
+      "href",
+      "blank"
+    ],
+    "description": ""
+  },
+  "g-list-group": {
+    "attributes": [
+      "cols",
+      "labelWidth",
+      "labelAlign",
+      "sep",
+      "itemClass",
+      "itemStyle"
+    ],
+    "description": ""
+  },
+  "g-multiple-input": {
+    "attributes": [
+      "value",
+      "placeholder",
+      "maxRows",
+      "returnType",
+      "regExp"
+    ],
+    "description": ""
+  },
+  "g-select": {
+    "attributes": [
+      "value",
+      "items",
+      "keyField",
+      "labelField",
+      "valueField",
+      "itemHeight",
+      "itemTitle",
+      "multiple",
+      "placeholder",
+      "disabled",
+      "isCheckedAll",
+      "dropdownWidth",
+      "dropdownMinWidth",
+      "loading",
+      "placement",
+      "readonly"
+    ],
+    "description": ""
+  },
+  "g-table": {
+    "attributes": [
+      "rowKey",
+      "headers",
+      "pageShow",
+      "pageSize",
+      "pageSizes",
+      "pageLayout",
+      "pagerCount",
+      "fetch",
+      "size",
+      "diffHeight",
+      "border",
+      "stripe",
+      "fixedHeight",
+      "immediate",
+      "dense",
+      "showOrder",
+      "draggable",
+      "customColumn"
+    ],
+    "description": ""
+  },
+  "g-text-ellipsis": {
+    "attributes": [
+      "tag",
+      "lines",
+      "content",
+      "placement",
+      "theme",
+      "tooltipMaxLength",
+      "popperClass"
+    ],
+    "description": "文本过长时根据最大显示长度限制裁剪"
+  },
+  "g-thumb": {
+    "attributes": [
+      "url",
+      "width",
+      "height",
+      "isPreview",
+      "previewWidth",
+      "previewHeight",
+      "delay",
+      "fit"
+    ],
+    "description": ""
+  },
+  "g-table-column-header": {
+    "attributes": [
+      "label",
+      "prop"
+    ],
+    "description": ""
+  }
+}

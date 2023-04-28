@@ -1,0 +1,42 @@
+{
+  "name": "zh-pps",
+  "version": "0.0.0",
+  "description": "",
+  "main": "src/route.js",
+  "scripts": {
+    "dev": "node build/index.js",
+    "lint": "npm run dev --unwatch && lint-staged"
+  },
+  "devDependencies": {
+    "@vue/eslint-config-standard": "^5.1.2",
+    "babel-eslint": "^10.1.0",
+    "element-ui": "^2.15.1",
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-standard": "^4.1.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "global-components": "^0.0.0",
+    "husky": "^6.0.0",
+    "lint-staged": "^10.5.4",
+    "vue": "^2.6.12",
+    "vue-router": "^3.5.1",
+    "vuex": "^3.6.2",
+    "route-tool": "^0.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "lint-staged": {
+    "*.{js,jsx,vue}": [
+      "eslint --fix"
+    ]
+  },
+  "files": [
+    "src",
+    "package.json",
+    "index.d.ts"
+  ],
+  "dependencies": {}
+}

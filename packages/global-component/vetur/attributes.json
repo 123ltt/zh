@@ -1,0 +1,287 @@
+{
+  "g-auth/code": {
+    "description": "类型：`String | Array`。对应 菜单标签 的值"
+  },
+  "g-cascader/value": {
+    "description": "类型：`Array`。"
+  },
+  "g-cascader/options": {
+    "description": "类型：`Array`。"
+  },
+  "g-cascader/isLeaf": {
+    "description": "类型：`Boolean`。传入给 elCascader 的 value 是否是叶子节点的值"
+  },
+  "g-color-icon/icon": {
+    "description": "类型：`String`。"
+  },
+  "g-color-icon/width": {
+    "description": "类型：`String`。"
+  },
+  "g-color-icon/height": {
+    "description": "类型：`String`。"
+  },
+  "g-color-icon/verticalAlign": {
+    "description": "类型：`String`。"
+  },
+  "g-content/value": {
+    "description": "类型：`String`。"
+  },
+  "g-content/editable": {
+    "description": "类型：`Boolean`。是否启用编辑功能"
+  },
+  "g-content/type": {
+    "description": "类型：`String`。输入框的类型，可选值：`input`，`textarea`"
+  },
+  "g-content/rows": {
+    "description": "只有type为textarea有效, [min, max]"
+  },
+  "g-content/ellipsis": {
+    "description": "类型：`Boolean`。文本过长是否裁剪（显示省略号）"
+  },
+  "g-content/ellipsisLines": {
+    "description": "类型：`Number`。文本超过几行时开始裁剪（ellipsis 为 true 才会生效）"
+  },
+  "g-charts/width": {
+    "description": "类型：`String`。画布宽度。默认`100%`"
+  },
+  "g-charts/height": {
+    "description": "类型：`String`。画布高度。默认`360px`"
+  },
+  "g-charts/option": {
+    "description": "类型：`Object`。图表的数据配置项，对应传入`setOption`的参数"
+  },
+  "g-charts/tooltip": {
+    "description": "类型：`String`。对应echarts配置项的tooltip.trigger的参数。可选值：`item`, `axis`, `none`，默认`axis`"
+  },
+  "g-charts/title": {
+    "description": "类型：`String`。图表的标题，对应配置项的title"
+  },
+  "g-input-tags/value": {
+    "description": "类型：`Array | Object`。"
+  },
+  "g-input-tags/tagMode": {
+    "description": "类型：`Boolean`。是否使用tag模式，默认`true`。如果`multiple`为`true`则会强制将`tagMode`设为`true`"
+  },
+  "g-input-tags/multiple": {
+    "description": "类型：`Boolean`。是否显示多个值。默认`true`"
+  },
+  "g-input-tags/clearable": {
+    "description": "类型：`Boolean`。是否显示清空按钮。默认`false`"
+  },
+  "g-input-tags/showArrow": {
+    "description": "类型：`Boolean`。是否显示下拉箭头。默认`false`"
+  },
+  "g-input-tags/showDetail": {
+    "description": "类型：`Boolean`。鼠标悬停时显示详情。默认`true`"
+  },
+  "g-input-tags/collapseTags": {
+    "description": "类型：`Boolean`。是否收起tag（`tagMode`为true时生效）。默认`false`"
+  },
+  "g-input-tags/size": {
+    "description": "类型：`String`。尺寸，只支持 `small`、`mini`两种尺寸，其他尺寸可能与elementUI对不上。默认`mini`"
+  },
+  "g-input-tags/disabled": {
+    "description": "类型：`Boolean`。是否禁用，默认`false`"
+  },
+  "g-input-tags/placeholder": {
+    "description": "类型：`String`。"
+  },
+  "g-link/tag": {
+    "description": "类型：`String`。自定义标签。默认`a`"
+  },
+  "g-link/color": {
+    "description": "类型：`String`。"
+  },
+  "g-link/href": {
+    "description": "类型：`String`。只在tag为a标签时生效"
+  },
+  "g-link/blank": {
+    "description": "类型：`Boolean`。tag为a标签且设置了href时生效。是否在新页面打开。默认`true`"
+  },
+  "g-list-group/cols": {
+    "description": "类型：`Number`。显示的列数"
+  },
+  "g-list-group/labelWidth": {
+    "description": "类型：`String`。设置所有item标题宽度（需包含单位），支持单位尺寸、auto、none"
+  },
+  "g-list-group/labelAlign": {
+    "description": "类型：`String`。标题的对齐方式，支持：靠左、居中、靠右"
+  },
+  "g-list-group/sep": {
+    "description": "类型：`String`。标题与内容的分隔符，默认`：`"
+  },
+  "g-list-group/itemClass": {
+    "description": "类型：`String`。给所有item添加class"
+  },
+  "g-list-group/itemStyle": {
+    "description": "类型：`Object`。给所有item添加style"
+  },
+  "g-multiple-input/value": {
+    "description": "类型：`String | Array`。"
+  },
+  "g-multiple-input/placeholder": {
+    "description": "类型：`String`。"
+  },
+  "g-multiple-input/maxRows": {
+    "description": "类型：`Number`。最大行数"
+  },
+  "g-multiple-input/returnType": {
+    "description": "类型：`String`。返回给v-model的值类型，只支持 array 和 string"
+  },
+  "g-multiple-input/regExp": {
+    "description": "类型：`RegExp`。分割字符串的正则表达式"
+  },
+  "g-select/value": {
+    "description": "类型：`String | Number | Array`。"
+  },
+  "g-select/items": {
+    "description": "类型：`Array`。下拉列表的数据"
+  },
+  "g-select/keyField": {
+    "description": "类型：`String`。每条数据的唯一值对应的字段名"
+  },
+  "g-select/labelField": {
+    "description": "类型：`String | Function`。下拉选项显示的内容对应的字段名"
+  },
+  "g-select/valueField": {
+    "description": "类型：`String`。"
+  },
+  "g-select/itemHeight": {
+    "description": "类型：`Number`。下拉选项的高度（每项的高度）。默认`30`（单位像素）"
+  },
+  "g-select/itemTitle": {
+    "description": "类型：`Boolean`。下拉选项是否添加title属性。默认`false`"
+  },
+  "g-select/multiple": {
+    "description": "类型：`Boolean`。"
+  },
+  "g-select/placeholder": {
+    "description": "类型：`String`。"
+  },
+  "g-select/disabled": {
+    "description": "类型：`Boolean`。"
+  },
+  "g-select/isCheckedAll": {
+    "description": "类型：`Boolean`。是否显示全选按钮。默认`false`（**只有`multiple`为`true`时才生效**）"
+  },
+  "g-select/dropdownWidth": {
+    "description": "类型：`String`。设置下拉框的宽度（需含单位）。默认为输入框的宽度。为 `auto` 时会根据内容大概计算长度"
+  },
+  "g-select/dropdownMinWidth": {
+    "description": "类型：`String`。设置下拉框最小宽度（需含单位）。默认`12em`"
+  },
+  "g-select/loading": {
+    "description": "类型：`Boolean`。"
+  },
+  "g-select/placement": {
+    "description": "类型：`String`。菜单弹出位置，可选值有`top`, `top-start`, `top-end`, `bottom`, `bottom-start`, `bottom-end`。默认`bottom`"
+  },
+  "g-select/readonly": {
+    "description": "类型：`Boolean`。是否只读，只读状态不能勾选。默认`false`"
+  },
+  "g-table/rowKey": {
+    "description": "类型：`String`。列表数据中具有唯一性的字段名"
+  },
+  "g-table/headers": {
+    "description": "类型：`Array`。"
+  },
+  "g-table/pageShow": {
+    "description": "类型：`Boolean`。是否显示分页"
+  },
+  "g-table/pageSize": {
+    "description": "类型：`Number`。默认每页数量"
+  },
+  "g-table/pageSizes": {
+    "description": "类型：`Array`。分页"
+  },
+  "g-table/pageLayout": {
+    "description": "类型：`String`。对应分页的 layout 属性"
+  },
+  "g-table/pagerCount": {
+    "description": "类型：`Number`。页码按钮的数量，当总页数超过该值时会折叠"
+  },
+  "g-table/fetch": {
+    "description": "类型：`Function`。*\n     * g-table组件调用该方法时会传入两个参数：\n     *  @param {Object} page page中包含两个属性：current(当前页码) 和 size(当前每页数量)\n     *  @param {any} params 对应通过load方法传入的第二个参数"
+  },
+  "g-table/size": {
+    "description": "类型：`String`。table尺寸"
+  },
+  "g-table/diffHeight": {
+    "description": "类型：`Number`。可能因某些原因导致高度计算有误，可以通过该参数补充"
+  },
+  "g-table/border": {
+    "description": "类型：`Boolean`。"
+  },
+  "g-table/stripe": {
+    "description": "类型：`Boolean`。"
+  },
+  "g-table/fixedHeight": {
+    "description": "类型：`Boolean`。是否通过js计算高度，使表格固定高度"
+  },
+  "g-table/immediate": {
+    "description": "类型：`Boolean`。组件创建是否自动获取数据（即执行`this.load(1)`）"
+  },
+  "g-table/dense": {
+    "description": "类型：`Boolean`。是否使用紧凑表格（减少行距、表格内边距）"
+  },
+  "g-table/showOrder": {
+    "description": "类型：`Boolean`。是否在首列添加序号"
+  },
+  "g-table/draggable": {
+    "description": "类型：`Boolean`。表头是否支持拖拽排序"
+  },
+  "g-table/customColumn": {
+    "description": "类型：`Object`。自定义列的设置页面 的配置（即 popover 左侧区域的配置，详见 customColumn.vue 文件）"
+  },
+  "g-text-ellipsis/tag": {
+    "description": "类型：`String`。标签"
+  },
+  "g-text-ellipsis/lines": {
+    "description": "类型：`Number | String`。"
+  },
+  "g-text-ellipsis/content": {
+    "description": "类型：`String`。"
+  },
+  "g-text-ellipsis/placement": {
+    "description": "类型：`String`。tooltip出现的位置\ntop/top-start/top-end/bottom/bottom-start/bottom-end/left/left-start/left-end/right/right-start/right-end"
+  },
+  "g-text-ellipsis/theme": {
+    "description": "类型：`String`。显示的主题\ndark/light"
+  },
+  "g-text-ellipsis/tooltipMaxLength": {
+    "description": "类型：`Number`。tooltip显示的内容最大的长度，默认为`2000`，为0不限制"
+  },
+  "g-text-ellipsis/popperClass": {
+    "description": "类型：`String`。气泡 自定义class"
+  },
+  "g-thumb/url": {
+    "description": "类型：`String`。图片地址"
+  },
+  "g-thumb/width": {
+    "description": "类型：`Number`。图片宽度"
+  },
+  "g-thumb/height": {
+    "description": "类型：`Number`。图片高度"
+  },
+  "g-thumb/isPreview": {
+    "description": "类型：`Boolean`。是否预览"
+  },
+  "g-thumb/previewWidth": {
+    "description": "类型：`Number`。预览宽度"
+  },
+  "g-thumb/previewHeight": {
+    "description": "类型：`Number`。预览高度"
+  },
+  "g-thumb/delay": {
+    "description": "类型：`Number`。预览图延迟显示。单位：毫秒。默认`300`"
+  },
+  "g-thumb/fit": {
+    "description": "类型：`String`。缩略图适应容器的方式。可选值有：cover, contain, fill。默认`cover`"
+  },
+  "g-table-column-header/label": {
+    "description": "类型：`String`。表头标题"
+  },
+  "g-table-column-header/prop": {
+    "description": "类型：`String`。对应数据的字段名"
+  }
+}

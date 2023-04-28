@@ -1,0 +1,31 @@
+<template>
+  <el-table
+    :data="logicalsList"
+    :header-cell-style="{ background:'#FAFAFA', color:'rgba(0,0,0,.85)' }"
+    border
+    stripe
+    class="g-table"
+    size="small"
+    style="width: 100%"
+  >
+    <!-- <el-table-column label="物流渠道名称" prop="deliveryGroupName" /> -->
+    <el-table-column label="物流渠道代码" prop="channelCode" />
+    <el-table-column label="物流运费" prop="cost" />
+    <el-table-column label="时效(天)" prop="timeliness" />
+    <el-table-column label="泡比" prop="lightgoods" />
+    <el-table-column label="金额区间" prop="priceLow">
+      <template slot-scope="{ row }">
+        {{ row.priceLow }} - {{ row.priceHigh }}
+      </template>
+    </el-table-column>
+  </el-table>
+</template>
+
+<script>
+export default {
+  name: 'LogisticsList',
+  props: {
+    logicalsList: Array
+  }
+}
+</script>

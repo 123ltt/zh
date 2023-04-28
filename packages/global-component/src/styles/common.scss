@@ -1,0 +1,13 @@
+// elementUI样式变量
+:root {
+  --color-primary: #409EFF;
+}
+@import './element-var.scss';
+@import "~element-ui/packages/theme-chalk/src/index";
+
+// 引入bootstrap工具类
+@import './bootstrap.scss';
+
+@import './rewrite-elementui.scss';
+
+

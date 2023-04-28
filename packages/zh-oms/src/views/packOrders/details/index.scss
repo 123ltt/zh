@@ -1,0 +1,45 @@
+.detail-wrap ::v-deep{
+  padding: 0 10px;
+  .info{
+    transition: height .3s ease-in;
+    overflow: hidden;
+  }
+  .row{
+    align-items: stretch;
+    &>.el-col .el-card{
+      height: 100%;
+      .el-card__body{
+        padding: 4px;
+        display: flex;
+        flex-wrap: wrap;
+        &>div{
+          width: 100%;
+        }
+      }
+    }
+    .btns-space{
+      &>span,&>a{
+        margin-left: 12px;
+      }
+    }
+  }
+  .fixed-class>div{
+    padding-bottom: 0 !important;
+    &>div:last-child{
+      margin-top: -6px;
+    }
+    .g-select-disabled>div{
+      input{
+        border: none;
+        background-color: #fff;
+        color: #303133;
+        &::placeholder{
+          color: transparent;
+        }
+      }
+      span.el-input__suffix{
+        color: transparent;
+      }
+    }
+  }
+}
